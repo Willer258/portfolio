@@ -15,8 +15,8 @@ const params = {
   OFFSET_SPEED: 120,
   SPEED: 1.1,
   OFFSET_WAVES: 18,
-  NUMBER_WAVES: 8,
-  COLOR: '#032bac',
+  NUMBER_WAVES: 5,
+  COLOR: '#40aaaa',
   NUMBER_CURVES: 1,
   OFFSET_CURVE: true,
   RESET: false };
