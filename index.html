@@ -8,6 +8,7 @@
       href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
       rel="stylesheet"
     />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -21,8 +22,9 @@
       <div class="">
         <nav class="w-full py-8 flex justify-around items-center">
           <div class="logo text-xl font-bold">My Portfolio</div>
-          <div class="links space-x-10">
+          <div class="links space-x-10 flex items-center">
             <a href="#">Accueil</a>
+
             <a href="#">A propos de moi</a>
             <a href="#">Mon parcours</a>
             <a href="#">Mes skills</a>
@@ -32,7 +34,9 @@
         </nav>
         <!-- main-header-content -->
 
-        <div class="W-full flex items-center justify-center header-text space-x-10">
+        <div
+          class="W-full flex items-center justify-center header-text space-x-10"
+        >
           <div class="text-xl">
             <span class="font-bold">Houinlindjonon Alain Wilfried</span>
 
@@ -48,15 +52,71 @@
             apte a vos besoins.
           </div>
           <div class="box"></div>
+          <div>
+            <div class="social">
+              <ul class="space-y-5 social-content">
+                <li class="social-link">
+                  <span>Facebook</span>
+                  <img
+                    class="img-link"
+                    width="25px"
+                    height="25px"
+                    src="./assets/facebook-brands.svg"
+                    alt="facebook"
+                  />
+                </li>
+                <li class="social-link">
+                  <span>Instagram</span>
+                  <img
+                    class="img-link"
+                    width="25px"
+                    height="25px"
+                    src="./assets/instagram-brands.svg"
+                    alt="instagram"
+                  />
+                </li>
+                <li class="social-link">
+                  <span>Whatsapp</span>
+                  <img
+                    class="img-link"
+                    width="25px"
+                    height="25px"
+                    src="./assets/whatsapp-brands.svg"
+                    alt="whatsapp"
+                  />
+                </li>
+                <li class="social-link">
+                  <span>Telegram</span>
+                  <img
+                    class="img-link"
+                    width="25px"
+                    height="25px"
+                    src="./assets/telegram-brands.svg"
+                    alt="telegram"
+                  />
+                </li>
+                <li class="social-link">
+                  <span>Mail</span>
+                  <img
+                    class="img-link"
+                    width="25px"
+                    height="25px"
+                    src="./assets/email.svg"
+                    alt="mail"
+                  />
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
 
         <!-- main-header-content -->
         <canvas class="wave-xp max-w-screen absolute"></canvas>
       </div>
     </header>
-
     <!-- partial -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
-    <script src="./bg-wave.js"></script>
+    <!-- <script src="./bg-wave.js"></script> -->
+    <script src="./script.js"></script>
   </body>
 </html>
