@@ -1,26 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-   
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
     <title>Houinlindjonon Alain Wilfried</title>
-</head>
-<body>
+  </head>
+  <body>
+    <header class="w-screen h-screen">
+      <div class="">
+        <nav class="w-full py-8 flex justify-around items-center">
+          <div class="logo text-xl font-bold">My Portfolio</div>
+          <div class="links space-x-10 flex items-center">
+            <a href="#">Accueil</a>
 
-    <header class="">
+            <a href="#">A propos de moi</a>
+            <a href="#">Mon parcours</a>
+            <a href="#">Mes skills</a>
+            <a href="#">Mes projets</a>
+            <a href="#">Me contacter</a>
+          </div>
+        </nav>
+        <!-- main-header-content -->
 
-        <canvas class="wave-xp"></canvas>
-  
+        <div
+          class="W-full flex items-center justify-center header-text space-x-10"
+        >
+          <div class="text-xl">
+            <span class="font-bold">Houinlindjonon Alain Wilfried</span>
+
+            <ul class="bloc">
+              <li class="line text-red-500">Devellopeur Front-end,</li>
+              <li class="line text-blue-500">Futur devellopeur Full-stack,</li>
+              <li class="line text-indigo-500">
+                Designer quand l'envie me prend,
+              </li>
+              <li class="line text-red-500">Devellopeur Front-end,</li>
+            </ul>
+            <br />
+            apte a vos besoins.
+          </div>
+          <div class="box"></div>
+          <div>
+            <div class="social">
+              <ul class="space-y-5 social-content">
+                <li class="social-link">
+                  <span>Facebook</span>
+                  <i class="fab fa-facebook-square"></i>
+                </li>
+                <li class="social-link">
+                  <span>Instagram</span>
+                  <i class="fab fa-instagram"></i>
+                </li>
+                <li class="social-link">
+                  <span>Whatsapp</span>
+                  <i class="fab fa-whatsapp"></i>
+                </li>
+                <li class="social-link">
+                  <span>Telegram</span>
+                  <i class="fab fa-telegram"></i>
+                </li>
+                <li class="social-link">
+                  <span>Mail</span>
+                  <i class="far fa-envelope"></i>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- main-header-content -->
+        <canvas class="wave-xp max-w-screen absolute"></canvas>
+      </div>
     </header>
-  
-
-
-<!-- partial -->
-<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js'></script>
-<script  src="./bg-wave.js"></script>
-</body>
+    <!-- partial -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+    <script src="./bg-wave.js"></script>
+    <script src="./script.js"></script>
+  </body>
 </html>
