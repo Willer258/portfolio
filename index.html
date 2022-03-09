@@ -10,52 +10,65 @@
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
-    />
-    <link
-      rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
-
-    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/56b0022823.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Houinlindjonon Alain Wilfried</title>
   </head>
   <body>
-    <header class="w-screen h-screen">
-      <div class="">
-        <nav class="w-full py-8 flex justify-around items-center">
-          <div class="logo text-xl font-bold">My Portfolio</div>
-          <div class="links space-x-10 flex items-center">
-            <a href="#">Accueil</a>
+    <div class="">
+      <video class="opacity-30" autoplay muted loop id="myVideo">
+        <source src="./assets/video/essai.mp4" type="video/mp4" />
+      </video>
+      <section class="h-screen background-first">
+        <div class="container mx-auto">
+          <header>
+            <nav
+              class="w-full py-8 flex px-5 sm:mx-0 justify-between items-center"
+            >
+              <div class="logo text-xl font-bold">My Portfolio</div>
+              <div class="links hidden space-x-10 lg:flex items-center">
+                <a href="#">Accueil</a>
+                <a href="#">Profil</a>
+                <a href="#">Mon parcours</a>
+                <a href="#">Mes skills</a>
+                <a href="#">Mes projets</a>
+                <a href="#">Me contacter</a>
+              </div>
 
-            <a href="#">A propos de moi</a>
-            <a href="#">Mon parcours</a>
-            <a href="#">Mes skills</a>
-            <a href="#">Mes projets</a>
-            <a href="#">Me contacter</a>
-          </div>
-        </nav>
-        <!-- main-header-content -->
+              <span class="inline text-xl lg:hidden"
+                ><i class="fa-solid fa-bars"></i
+              ></span>
+            </nav>
+          </header>
+          <!-- main-header-content -->
+          <div
+            class="flex flex-col-reverse md:flex-row justify-around items-center justify-center header-text"
+          >
+            <div class="text-xl text-center md:text-left">
+              <span class="font-bold text-2xl lg:text-4xl"
+                >Houinlindjonon Alain Wilfried</span
+              >
 
-        <div
-          class="W-full flex items-center justify-center header-text space-x-10"
-        >
-          <div class="text-xl">
-            <span class="font-bold">Houinlindjonon Alain Wilfried</span>
-
-            <ul class="bloc">
-              <li class="line text-red-500">Devellopeur Front-end,</li>
-              <li class="line text-blue-500">Futur devellopeur Full-stack,</li>
-              <li class="line text-indigo-500">
-                Designer quand l'envie me prend,
-              </li>
-              <li class="line text-red-500">Devellopeur Front-end,</li>
-            </ul>
-            <br />
-            apte a vos besoins.
-          </div>
-          <div class="box"></div>
-          <div>
+              <ul class="bloc">
+                <li class="line text-red-500">Devellopeur Front-end,</li>
+                <li class="line text-blue-500">
+                  Futur devellopeur Full-stack,
+                </li>
+                <li class="line text-indigo-500">
+                  Designer quand l'envie me prend,
+                </li>
+                <li class="line text-red-500">Devellopeur Front-end,</li>
+              </ul>
+              <br />
+              apte a vos besoins.
+            </div>
+            <div class="box"></div>
+            <!-- <div>
             <div class="social">
               <ul class="space-y-5 social-content">
                 <li class="social-link">
@@ -80,13 +93,15 @@
                 </li>
               </ul>
             </div>
+          </div> -->
           </div>
         </div>
 
         <!-- main-header-content -->
-        <canvas class="wave-xp max-w-screen absolute"></canvas>
-      </div>
-    </header>
+        <!-- <canvas class="wave-xp max-w-screen absolute"></canvas> -->
+      </section>
+    </div>
+    <div class="h-screen bg-section"></div>
     <!-- partial -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
     <script src="./bg-wave.js"></script>
